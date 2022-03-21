@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  background: #d5cdcd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.off-on{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe,
+  -20px 20px 60px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 3px solid #725f7c;
+}
+.off-on .fa-power-off{
+  font-size: 4em;
+  color: #725f7c;
+}
+.active{
+  box-shadow: inset 20px 20px 60px #bebebe,
+  inset -20px 20px 60px #fff;
+  border: 3px solid #19ce01;
+}
+.active .fa-power-off{
+  color: #19ce01;
+}
